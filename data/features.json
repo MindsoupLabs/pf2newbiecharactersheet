@@ -1,0 +1,16 @@
+{
+  "Healing Font": { "isPassive": true },
+  "Cloistered Cleric": { "isPassive": true },
+  "Anathema": { "isPassive": true },
+  "Cleric Spellcasting": { "isPassive": true },
+  "Domain: Sun": { "isPassive": true },
+  "Low-Light Vision": { "isPassive": true },
+  "Darkvision": { "isPassive": true },
+  "Maestro": { "isPassive": true },
+  "Second Doctrine": { "isPassive": true },
+  "Polymath": { "isPassive": true },
+  "Perception Expertise": { "isPassive": true },
+  "Third Doctrine": { "isPassive": true },
+  "Deity": { "isPassive": true },
+  "Neither": { "isPassive": true }
+}

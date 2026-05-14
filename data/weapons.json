@@ -1,0 +1,6 @@
+{
+  "Scimitar":  { "traits": ["forceful", "sweep"],                 "range": "melee" },
+  "Staff":     { "traits": ["two-hand d8"],                       "range": "melee" },
+  "Sling":     { "traits": ["propulsive", "reload 1"],            "range": "ranged 50 ft" },
+  "Dagger":    { "traits": ["agile", "finesse", "thrown 10 ft", "versatile S"], "range": "melee" }
+}

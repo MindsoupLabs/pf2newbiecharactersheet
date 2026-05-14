@@ -1,0 +1,38 @@
+{
+  "Reach Spell": {
+    "actionCost": "1",
+    "type": "Class Feat",
+    "description": "Cast a spell whose range is touch with a 30-ft range, or extend a non-touch spell's range by 30 ft.",
+    "isPassive": false
+  },
+  "Cast Down": {
+    "actionCost": null,
+    "type": "Class Feat",
+    "description": "When you damage a foe with a save-targeting spell, on a failure they're knocked prone (and additional riders on crit fail).",
+    "isPassive": false
+  },
+  "Bon Mot": {
+    "actionCost": "1",
+    "type": "Skill Feat",
+    "description": "Diplomacy check vs. an enemy's Will DC within 30 ft. On hit: −2 status to Perception and Will saves for 1 minute.",
+    "isPassive": false
+  },
+  "Healing Hands": { "isPassive": true },
+  "Continual Recovery": { "isPassive": true },
+  "Domain Initiate": { "isPassive": true },
+  "Schooled in Secrets": { "isPassive": true },
+  "Tiefling": { "isPassive": true },
+  "Fiendish Eyes": { "isPassive": true },
+  "Devil in Plain Sight": { "isPassive": true },
+  "Ancestral Paragon": { "isPassive": true },
+  "Natural Ambition": { "isPassive": true },
+  "Toughness": { "isPassive": true },
+  "Bard Dedication": { "isPassive": true },
+  "Basic Bard Spellcasting": { "isPassive": true },
+  "Basic Muse's Whispers": { "isPassive": true },
+  "Multifarious Muse": { "isPassive": true },
+  "Versatile Performance": { "isPassive": true },
+  "Advanced Muse's Whispers": { "isPassive": true },
+  "Lingering Composition": { "isPassive": true },
+  "Virtuosic Performer": { "isPassive": true }
+}
