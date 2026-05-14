@@ -1,0 +1,131 @@
+/* styles will be added in later tasks */
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #ece4d0; color: #1a1a1a; margin: 0; padding: 12px; }
+
+.pill-grn{display:inline-block;background:#fff;border:1.5px solid #2d5a2d;border-radius:999px;padding:2px 14px;min-width:38px;text-align:center;color:#1a1a1a;font-weight:700;line-height:1.2;font-size:14px;}
+.pill-grn-lg{display:inline-block;background:#fff;border:2.5px solid #2d5a2d;border-radius:50%;width:56px;height:56px;line-height:50px;text-align:center;color:#1a1a1a;font-weight:700;font-size:26px;}
+.pill-yel{display:inline-block;background:#fff;border:1.5px solid #8a7218;border-radius:999px;padding:2px 14px;min-width:38px;text-align:center;color:#1a1a1a;font-weight:700;line-height:1.2;font-size:14px;}
+.pill-blu{display:inline-block;background:#fff;border:1.5px solid #1a4a66;border-radius:999px;padding:1px 12px;min-width:34px;text-align:center;color:#1a1a1a;font-weight:600;line-height:1.4;font-size:11px;}
+.pill-red{display:inline-block;background:#fff;border:1.5px solid #6a1f1f;border-radius:999px;padding:1px 9px;min-width:36px;text-align:center;color:#1a1a1a;font-weight:700;line-height:1.4;font-size:11px;}
+.pill-red-lg{display:inline-block;background:#fff;border:2.5px solid #6a1f1f;border-radius:50%;width:56px;height:56px;line-height:50px;text-align:center;color:#1a1a1a;font-weight:700;font-size:26px;}
+.pill-wrap{position:relative;display:inline-block;}
+.prof-badge{position:absolute;top:-6px;right:-7px;color:#fff;padding:1px 4px;border-radius:3px;font-size:9px;font-weight:700;line-height:1;}
+
+.panel-header { background: #1a2a4a; color: #f5ecd2; padding: 12px 16px;
+                border-radius: 4px; display: grid;
+                grid-template-columns: 2fr 1fr 1fr auto; gap: 14px; align-items: center; }
+.char-name { font-size: 22px; font-weight: 700; }
+.char-subtitle { font-size: 12px; color: #d4c896; }
+.header-stat { text-align: center; }
+.header-label { font-size: 10px; color: #a8965e; letter-spacing: 0.5px; }
+.header-class { font-weight: 600; font-size: 14px; }
+.header-level { font-size: 26px; font-weight: 700; line-height: 1; }
+.header-hero { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+.header-hero .header-label { margin: 0; }
+.hero-pips { font-size: 18px; }
+
+.panel { padding: 8px; border-radius: 4px; }
+.panel-title { font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+.panel-attributes { background: #fffaee; border: 1px solid #b8a05a; }
+.attr-title { color: #5a4500; }
+.attr-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 6px; }
+.attr-cell { text-align: center; padding: 5px 0; background: #f5ebd0; border-radius: 3px; }
+.attr-label { font-size: 9px; color: #5a4500; font-weight: 700; }
+.attr-mod { font-weight: 700; font-size: 14px; }
+
+.panel-defences { background: #c4dfc4; border: 1px solid #2d5a2d; padding: 10px; }
+.def-title { color: #0f2e0f; margin-bottom: 8px; }
+.def-row { display: grid; grid-template-columns: auto auto 1fr 1fr 1fr;
+           gap: 14px; align-items: center; }
+.def-cell { text-align: center; }
+.def-label { font-size: 10px; color: #0f2e0f; font-weight: 700;
+             letter-spacing: 0.5px; margin-bottom: 4px; }
+.def-armor { font-size: 10px; color: #2d4a2d; margin-top: 3px; }
+.def-divider { width: 1px; background: #2d5a2d; align-self: stretch; margin: 4px 0; }
+.hp-row { border-top: 1px solid #2d5a2d; margin-top: 10px; padding-top: 10px;
+          display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.hp-pill { font-size: 16px; padding: 3px 14px; min-width: 50px; }
+
+.panel-utility { background: #fff4b8; border: 1px solid #8a7218; padding: 10px; }
+.util-title { color: #5a4500; margin-bottom: 6px; }
+.util-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.util-cell { text-align: center; }
+.util-label { font-size: 10px; color: #5a4500; font-weight: 700;
+              letter-spacing: 0.5px; margin-bottom: 4px; }
+.util-senses { font-size: 11px; color: #3a2f00; margin-top: 6px; }
+
+.panel-skills { background: #c8e0ec; border: 1px solid #1a4a66; }
+.sk-title { color: #0d2a3a; }
+.skills-grid { display: grid; grid-template-columns: 1fr auto;
+               gap: 6px 12px; font-size: 11px; margin-top: 8px; align-items: center; }
+.skill-name { color: #0d1a22; }
+.skill-trained { font-weight: 700; }
+
+.panel-attacks { background: #f0c8c8; border: 1px solid #6a1f1f; padding: 10px; }
+.atk-header { display: flex; justify-content: space-between; align-items: flex-start; }
+.atk-title { color: #4a0d0d; }
+.atk-cdc { display: flex; align-items: flex-start; gap: 8px; }
+.cdc-label { font-size: 10px; color: #4a0d0d; font-weight: 700; letter-spacing: 0.5px; padding-top: 3px; }
+.weapon-card { margin-top: 6px; padding: 8px 10px; background: #fffaee;
+               border-radius: 3px; border: 1px solid #6a1f1f; font-size: 12px; }
+.weapon-name { font-weight: 700; }
+.weapon-stats { margin-top: 5px; display: flex; align-items: center;
+                gap: 16px; flex-wrap: wrap; font-size: 11px; color: #4a0d0d; }
+.weapon-attacks { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.atk-step { display: inline-flex; align-items: center; gap: 4px; }
+.atk-ord { font-size: 10px; color: #6a1f1f; font-weight: 700; }
+.weapon-traits { font-size: 11px; color: #4a2a2a; margin-top: 5px; }
+
+.panel-abilities { background: #fffaee; border: 1px solid #8a7236; }
+.ab-title { color: #4a3500; }
+.ab-group-title { margin-top: 8px; font-size: 10px; font-weight: 700;
+                  color: #4a3500; text-transform: uppercase;
+                  border-bottom: 1px solid #8a7236; letter-spacing: 0.5px; }
+.ab-line { font-size: 11px; margin-top: 4px; color: #1a1a1a; }
+
+.panel-gear { background: #fffaee; border: 1px solid #8a7236; }
+.gear-title { color: #4a3500; }
+.gear-list { font-size: 11px; margin-top: 4px; color: #1a1a1a; line-height: 1.5; }
+
+.sheet-body { display: grid; grid-template-columns: 0.8fr 1.6fr 1.2fr;
+              gap: 10px; margin-top: 10px; }
+.sheet-col { display: flex; flex-direction: column; gap: 10px; }
+
+@media (max-width: 768px) {
+  .sheet-body { grid-template-columns: 1fr; }
+  /* Mobile order: header, attributes, defences, utility, skills, attacks, abilities, gear */
+  .col-1, .col-2, .col-3 { display: contents; }
+  .panel-attributes { order: 1; }
+  .panel-defences   { order: 2; }
+  .panel-utility    { order: 3; }
+  .panel-skills     { order: 4; }
+  .panel-attacks    { order: 5; }
+  .panel-abilities  { order: 6; }
+  .panel-gear       { order: 7; }
+}
+
+.paste-fallback { max-width: 720px; margin: 40px auto; padding: 20px;
+                  background: #fff; border-radius: 6px; font-family: inherit; }
+.paste-fallback textarea { width: 100%; font-family: monospace; padding: 8px; }
+.paste-fallback button { margin-top: 8px; padding: 8px 16px; font-size: 14px; }
+
+@page { size: A4 portrait; margin: 1cm; }
+
+@media print {
+  body { background: #fff; padding: 0; }
+  .sheet-body { grid-template-columns: 1fr 1.15fr; gap: 6px; margin-top: 6px; }
+  .col-1, .col-2, .col-3 { display: flex; gap: 6px; }
+  .col-3 { /* print: abilities + gear go in right column with attacks */
+    /* Combine into right column on print */
+  }
+  /* Compact font sizes */
+  .panel { padding: 5px 6px; font-size: 9pt; }
+  .panel-title, .def-label, .attr-label, .util-label, .ab-group-title { font-size: 7pt; }
+  /* Pills shrink */
+  .pill-grn, .pill-yel, .pill-blu, .pill-red { padding: 3px 9px; font-size: 9pt; min-width: 24px; }
+  .pill-grn-lg, .pill-red-lg { width: 34px; height: 34px; line-height: 30px; font-size: 14pt; }
+  .prof-badge { top: -4px; right: -4px; font-size: 7pt; }
+  /* Hide editing affordances */
+  input[type="number"] { display: none; }
+  .col-3 { grid-column: 1 / -1; }
+  .hp-pill { background: #fff; }
+}
